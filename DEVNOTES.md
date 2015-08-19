@@ -6,7 +6,10 @@ docker-compose run aurelia ./jspm_install
 ```
 
 ## Run
-
+```bash
+docker-compose up
+# localhost:9000
+```
 
 ## Cleanup:
 ```bash
