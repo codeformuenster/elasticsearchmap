@@ -1,0 +1,12 @@
+aurelia:
+  build: .
+  # working_dir: "/usr/src/app/app"
+  # command: "gulp watch"
+  volumes:
+    - .:/usr/src/app
+  #   - .:/usr/src/app/app
+  environment:
+    JSPM_GITHUB_AUTH_TOKEN: 
+  ports:
+    - "9000:9000"
+    # - "3000:3000"
