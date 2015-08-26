@@ -1,6 +1,8 @@
 
 ## Init:
 ```bash
+docker-compose build
+
 JSPM_GITHUB_AUTH_TOKEN={{ github token }}
 docker-compose run aurelia ./jspm_install
 ```

@@ -9,4 +9,5 @@ jspm install -y
 
 # FIXME delete conf.js with credentials
 
+# necessary here? or maybe before jspm?
 npm install
