@@ -11,7 +11,7 @@ docker-compose rm -f
 ```bash
 docker-compose build
 
-JSPM_GITHUB_AUTH_TOKEN={{ github token }}
+export JSPM_GITHUB_AUTH_TOKEN={{ github token }}
 docker-compose run aurelia ./jspm_install
 ```
 
