@@ -1,3 +1,5 @@
+.v8flags*
+.bash_history
 .jspm/
 .node-gyp/
 .npm/

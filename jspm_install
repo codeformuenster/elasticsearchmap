@@ -7,6 +7,8 @@ jspm config registries.github.handler jspm-github
 
 jspm install -y
 
+jspm install -y npm:leaflet
+
 # FIXME delete conf.js with credentials
 
 # necessary here? or maybe before jspm?
